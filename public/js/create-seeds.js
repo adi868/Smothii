@@ -72,29 +72,29 @@ $(document).ready(() => {
     let smothiiSeeds = [
         {
             smothii_name: 'Berry Hipster',
-            smothii_description: 'A modern twist on a classic',
-            smothii_creator: 'Smothii Central',
+            smothii_description: 'A Modern Twist On A Classic',
+            smothii_creator: 'Smöthii Central',
             smothii_image_url: '/images/smothiis/8.png',
             smothii_category: 'fruit'
         },
         {
             smothii_name: 'South American',
-            smothii_description: 'Peach mango and greek yogurt',
-            smothii_creator: 'Smothii Central',
+            smothii_description: 'Peach Mango And Greek Yogurt',
+            smothii_creator: 'Smöthii Central',
             smothii_image_url: '/images/smothiis/3.png',
             smothii_category: 'fruit'
         },
         {
             smothii_name: 'Green Machine',
-            smothii_description: 'Kale, spinach and coconut milk',
-            smothii_creator: 'Smothii Central',
+            smothii_description: 'Kale, Spinach, And Coconut Milk',
+            smothii_creator: 'Smöthii Central',
             smothii_image_url: '/images/smothiis/1.png',
             smothii_category: 'vege'
         },
         {
-            smothii_name: 'Salad Smothii',
-            smothii_description: 'Apple lettuce and ice water',
-            smothii_creator: 'Smothii Central',
+            smothii_name: 'Salad Smöthii',
+            smothii_description: 'Apple, Lettuce, And Ice Water',
+            smothii_creator: 'Smöthii Central',
             smothii_image_url: '/images/smothiis/7.png',
             smothii_category: 'vege'
         }

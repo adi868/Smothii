@@ -6,7 +6,7 @@ $(document).ready( () => {
 
   function linkToMenu (event) {
     event.preventDefault();
-    alert('go to menu');
+    alert('Go To Menu');
     // Simulate an HTTP redirect:
     window.location.replace("/jd-menu");
   }

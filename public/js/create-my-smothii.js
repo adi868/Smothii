@@ -16,7 +16,7 @@ $(document).ready ( () => {
     
     // start up
     setUpIngredientArray();
-    showSmothiiCard('Custom Smothii');
+    showSmothiiCard('Custom Smöthii');
     closeRecipeCard();
 
     function submitNewSmothii() {
@@ -52,7 +52,7 @@ $(document).ready ( () => {
             });
         } else {
             // warn of error
-            showErrorModal('All fields are required');
+            showErrorModal('All fields are required.');
         }
     }
 
@@ -140,7 +140,7 @@ $(document).ready ( () => {
                         numSelected++;
                     } else {
                         // error - cannot choose another ingredient
-                        showErrorModal('You may only select 3 ingredients')
+                        showErrorModal('You may only select 3 ingredients.')
                     }
                 }   
             }

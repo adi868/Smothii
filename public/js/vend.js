@@ -24,7 +24,7 @@ $(document).ready ( () => {
         // hide the purchase button
         hidePurchaseButton();
         // show the confim modal
-        let message = 'Please swipe your card to confirm your purchase';
+        let message = 'Please swipe your card to confirm your purchase.';
         openModalConfirm(message);
     }
 
@@ -34,7 +34,7 @@ $(document).ready ( () => {
         // make the purcase!
         updateDbPurchase(smothii_id);
         // show the make modal
-        let message = 'Thank you for your purchase.';
+        let message = 'Thank You For Your Purchase.';
         openModalReceipt(message)
         // 3 secs to run card
         setTimeout( () => { receiptPurchase() }, 3000);        
@@ -52,7 +52,7 @@ $(document).ready ( () => {
         // hide the receipt modal
         closeModalReceipt();
         // show the make modal
-        let message = 'Making your delicious smothii';
+        let message = 'Making Your Delicious Smöthii';
         openModalMake(message);
         // 7 secs to make the smoothi
         setTimeout( () => { makePurchase() }, 7000);
@@ -62,7 +62,7 @@ $(document).ready ( () => {
         // hide the make modal
         closeModalMake();
         // show the receipt modal
-        let message = 'Please enjoy your smothii';
+        let message = 'Please Enjoy Your Smöthii!';
         openModalFinish(message);
         // 10 secs to return to index
         setTimeout( () => { finishPurchase() }, 10000);
@@ -142,9 +142,9 @@ $(document).ready ( () => {
         smothiiCard.push(`<div class='card smothii-card' style='width: 650px;' data-smothii-id='${smothii.id}'>`)
         smothiiCard.push(`<img src='${smothii.smothii_image_url}' class='card-img-top' alt='${smothii.smothii_name}'>`);
         smothiiCard.push(`<div class='card-body'>`);
-        smothiiCard.push(`<h5 class='card-title'>${smothii.smothii_name} - created by ${smothii.smothii_creator}</h5>`);
+        smothiiCard.push(`<h5 class='card-title'>${smothii.smothii_name} - Created By: ${smothii.smothii_creator}</h5>`);
         smothiiCard.push(`<p class='card-text'>${smothii.smothii_description}</p>`);
-        smothiiCard.push(`<p class='card-text'>Price: ${smothii.smothii_price}`);
+        smothiiCard.push(`<p class='card-text'>Price: $ ${smothii.smothii_price}`);
         smothiiCard.push(`</div>`);
         smothiiCard.push(`</div>`);
 
