@@ -12,8 +12,7 @@ module.exports = function(app) {
   // Load example page and pass in an example by id
   
   app.get("/ChooseYourOwn", function(req, res) {
-   
- 
+
 
       res.render("ChooseYourOwn",{fruitArray:ingredients})
        
