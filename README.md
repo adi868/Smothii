@@ -15,7 +15,7 @@ The Smöthii app relies on Node.js to provide the web server, and MySQL to store
     * [sequelize](https://www.npmjs.com/package/sequelize)
 
 ### Sequelize
-In the Smöthii application, Sequelize is configured to create database tables based on the smöthii data models.
+In the Smöthii application, Sequelize is configured to create database tables based on the Smöthii data models.
 
 ### Model-View-Controller File Structure
 #### Root directory
@@ -26,7 +26,7 @@ In the Smöthii application, Sequelize is configured to create database tables b
     * defines static routes
     * includes routes to connect requests to resources and serve responses
 #### config
-* config.js - database configuration file. Can be used to provde local DB configuration or connect to a remote database
+* config.js - database configuration file. Can be used to provide local DB configuration or connect to a remote database
 #### models
 * index.js - used by Sequelize to initialize tables in an empty database
 * MODELNAME.js - a separate model file for each database table
@@ -35,7 +35,7 @@ In the Smöthii application, Sequelize is configured to create database tables b
 #### public - a static route defined in server.js
 * styles - directory with client-available css files
 * js - directory with client-available js files
-* images - directory of images used by the applicaiton
+* images - directory of images used by the application
 #### routes
 * apiRoutes.js - route handling for data requests (return JSON)
 * htmlRoutes.js - routes for handling page requests (return HTML)
@@ -44,24 +44,24 @@ In the Smöthii application, Sequelize is configured to create database tables b
 * layouts subdirectory with main.handlebars document template
 
 ## Usage
-The smöthii vending interface permits the customer to select from a of existing smöthii recipes or create a custom smöthii.  Once the customer has selected a smöthii to purcahse, a vending interface directs the customer throught the purchase and smöthii production.
+The Smöthii vending interface permits the customer to select from a list of existing Smöthii recipes or create a custom Smöthii.  Once the customer has selected a Smöthii to purchase, a vending interface directs the customer through the purchase and Smöthii production.
 
-Key features of the application:
-* The menu of existing recipes includes pre-configured recipes as well as recipes created by previous customers (all previous custom-made smöthiis).
-* The menu will only permit the customer to select smöthiis that have sifficient inventory of the recipe ingredients.
-* The "create your own" option permits the customer to name and claim their smöthii creation and use "drag and drop" technology to select 3 ingredients to create a custom concoction.
-* Pricing of individual smöthiis is based on the cost of ingredients.
-* Purchasing a smöthii deducts the required ingredients from the ingredient inventory, updating the availability of smöthiis based on ingredient inventory.
-* Purchases and ingredient restocks are tracked to assist in determining the profitability of the smöthii vending machine.
+##### Key Features of the Application:
+* The menu of existing recipes includes pre-configured recipes as well as recipes created by previous customers (all previous custom-made Smöthiis).
+* The menu will only permit the customer to select Smöthiis that have sufficient inventory of the recipe ingredients.
+* The "create your own" option permits the customer to name and claim their Smöthii creation and use "drag and drop" technology to select 3 ingredients to create a custom concoction.
+* Pricing of individual Smöthiis is based on the cost of ingredients.
+* Purchasing a Smöthii deducts the required ingredients from the ingredient inventory, updating the availability of Smöthiis based on ingredient inventory.
+* Purchases and ingredient restocks are tracked to assist in determining the profitability of the Smöthii vending machine.
 * The vending view is configured for a specific screen size for the vending machine screen.
 
 ## Technical Notes
-* KNOWN FLAW: If you need to seed an empty database (which we assumed would be a setup state when the vending maching plugged in), navigate to [/test/seed/] and seed the ingredients, smothiis and recipies (in that order).
-please don't access that route an add to the live db -- in it's present state it would contnue to add copies of ingredients, potentialy overrunning the database or carosel of ingredients in the UI.
 * Drag and Drop capability provided through [jquery.ui](https://jqueryui.com/)
 * Extension of those capabilities to a touchscreen provided through [jquery.ui.touch-punch.min.js](http://touchpunch.furf.com/)
-* To avoid code collisions, each team member deployed working or logically-wroking code in test files.  Those proofs of concept or working models of the interface were copied into project files and "wired up" to other working components.  As a consequence, the leftover test code has not been removed (and may be in various working states).
+* To avoid code collisions, each team member deployed working or logically-working code in test files.  Those proofs of concept or working models of the interface were copied into project files and "wired up" to other working components.  As a consequence, the leftover test code has not been removed (and may be in various working states).
 * The non-working code is not referenced in the closed working model of the vending interface.
+* Known Flaw: If you need to seed an empty database (which we assumed would be a setup state when the vending maching plugged in), navigate to [/test/seed/] and seed the ingredients, smothiis and recipes (in that order).
+please don't access that route and add to the live db -- in it's present state it would contnue to add copies of ingredients, potentially overrunning the database or carosel of ingredients in the UI.
 
 ## Tools Used:
 * HTML5
