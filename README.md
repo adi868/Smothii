@@ -4,10 +4,10 @@
 Smöthii is an encompassing interactive interface for a fresh smoothie vending machine. The Smöthii application allows a customer to select and purchase a Smöthii from a list of official recipes or personally create a custom Smöthii from the available ingredients. Once the customer has selected a Smöthii to purchase, a vending interface directs the customer throughout the full purchase and Smöthii production.
 
 ## Installation
-The Smöthii app relies on Node.js to provide the web server, and MySQL to store vending machine data (smöthiis, ingredients, recipies, smöthii purchases and ingredient restocks).  There are a number of Node.js packages used to extend functionality listed below.
+The Smöthii app relies on Node.js to provide the web server, and MySQL to store vending machine data (Smöthiis, ingredients, recipes, Smöthii purchases and ingredient restocks).  There are a number of Node.js packages used to extend functionality listed below.
 
 1. [Download](https://nodejs.org/en/download/) and install Node.js
-2. [Download](https://dev.mysql.com/downloads/mysql/) and install MySql
+2. [Download](https://dev.mysql.com/downloads/mysql/) and install MySQL
 3. Use the Node.js package manager - npm - to install the required Node.js packages.  Running ```npm install``` from the command line will install the following Node.js packages:
     * [mysql2](https://www.npmjs.com/package/mysql2)
     * [express](https://www.npmjs.com/package/express)
@@ -15,7 +15,7 @@ The Smöthii app relies on Node.js to provide the web server, and MySQL to store
     * [sequelize](https://www.npmjs.com/package/sequelize)
 
 ### Sequelize
-In the smöthii applicaiton, Sequelize is configured to create database tables based on the smöthii data models.  Models
+In the Smöthii application, Sequelize is configured to create database tables based on the smöthii data models.
 
 ### Model-View-Controller File Structure
 #### Root directory
