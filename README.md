@@ -1,7 +1,7 @@
 # smöthii
 
-## About smöthii
-Smöthii is an interactive interface for a fresh ingredient smoothie vending machine.  The smöthii application allows a customer to select to purchase a smöthii from a list of previously-created recipes or create a custom smöthii from the available ingredients.
+## About Smöthii
+Smöthii is an encompassing interactive interface for a fresh smoothie vending machine. The Smöthii application allows a customer to select and purchase a Smöthii from a list of official recipes or personally create a custom Smöthii from the available ingredients. Once the customer has selected a Smöthii to purchase, a vending interface directs the customer throughout the full purchase and Smöthii production.
 
 ## Installation
 The smöthii app relies on Node.js to provide the web server, and mysql to store vending machine data (smöthiis, ingredients, recipies, smöthii purchases and ingredient restocks).  There are a number of node.js packages used to extend functionality listed below.
@@ -64,7 +64,7 @@ please don't access that route an add to the live db -- in it's present state it
 * The non-working code is not referenced in the closed working model of the vending interface.
 
 ## Team
-The smöthii development team included:
+The Smöthii development team included:
 * Adina
 * Antionne
 * John
