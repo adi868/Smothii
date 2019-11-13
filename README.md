@@ -1,10 +1,10 @@
-# smöthii
+# Smöthii
 
 ## About Smöthii
 Smöthii is an encompassing interactive interface for a fresh smoothie vending machine. The Smöthii application allows a customer to select and purchase a Smöthii from a list of official recipes or personally create a custom Smöthii from the available ingredients. Once the customer has selected a Smöthii to purchase, a vending interface directs the customer throughout the full purchase and Smöthii production.
 
 ## Installation
-The smöthii app relies on Node.js to provide the web server, and mysql to store vending machine data (smöthiis, ingredients, recipies, smöthii purchases and ingredient restocks).  There are a number of node.js packages used to extend functionality listed below.
+The Smöthii app relies on Node.js to provide the web server, and MySQL to store vending machine data (smöthiis, ingredients, recipies, smöthii purchases and ingredient restocks).  There are a number of Node.js packages used to extend functionality listed below.
 
 1. [Download](https://nodejs.org/en/download/) and install Node.js
 2. [Download](https://dev.mysql.com/downloads/mysql/) and install MySql
@@ -62,6 +62,18 @@ please don't access that route an add to the live db -- in it's present state it
 * Extension of those capabilities to a touchscreen provided through [jquery.ui.touch-punch.min.js](http://touchpunch.furf.com/)
 * To avoid code collisions, each team member deployed working or logically-wroking code in test files.  Those proofs of concept or working models of the interface were copied into project files and "wired up" to other working components.  As a consequence, the leftover test code has not been removed (and may be in various working states).
 * The non-working code is not referenced in the closed working model of the vending interface.
+
+## Tools Used:
+* HTML5
+* CSS3
+* Node.js
+* JavaScript
+* jQuery
+* MySQL
+* Express
+* Sequelize
+* Handlebars.js
+* Heroku
 
 ## Team
 The Smöthii development team included:
