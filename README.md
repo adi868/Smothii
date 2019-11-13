@@ -26,7 +26,7 @@ In the Smöthii application, Sequelize is configured to create database tables b
     * defines static routes
     * includes routes to connect requests to resources and serve responses
 #### config
-* config.js - database configuration file. Can be used to provide local DB configuration or connect to a remote database
+* config.json - database configuration file. Can be used to provide local DB configuration or connect to a remote database
 #### models
 * index.js - used by Sequelize to initialize tables in an empty database
 * MODELNAME.js - a separate model file for each database table
