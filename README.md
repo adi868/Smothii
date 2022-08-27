@@ -82,3 +82,6 @@ The Smöthii development team included:
 * John
 * Sara
 * Violet
+
+## Deployed Link
+https://smothii.herokuapp.com/
